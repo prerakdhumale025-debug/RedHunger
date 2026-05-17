@@ -4,6 +4,7 @@ def print_table(num):
 
 # Taking user input
 number = int(input("Enter a number: "))
+<<<<<<< HEAD
 print_table(number)
 
 
@@ -15,3 +16,8 @@ def table_new(num):
         print(f"{num} x {i} = {num * i}")
         i += 1
 table_new()
+=======
+
+# Calling function
+print_table(number)
+>>>>>>> 29469564df452a44daf218bda0e35d59d6c26649
